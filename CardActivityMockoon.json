@@ -1,0 +1,104 @@
+{
+    "source": "mockoon:1.11.0",
+    "data": [
+        {
+            "type": "environment",
+            "item": {
+                "uuid": "",
+                "lastMigration": 13,
+                "name": "Demo",
+                "endpointPrefix": "",
+                "latency": 0,
+                "port": 30003,
+                "routes": [
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "friends",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "[\n    {\n        \"id\": 8034,\n        \"name\": \"Satrio\",\n        \"street\": \"Arjuna street\",\n        \"city\": \"Brooklyn\",\n        \"updated_at\": \"2018-08-24T00:32:25.000Z\",\n        \"created_at\": \"2018-07-24T01:33:21.000Z\"\n    },\n    {\n        \"id\": 8035,\n        \"name\": \"Tio\",\n        \"street\": \"62970 18th St\",\n        \"city\": \"Jakarta\",\n        \"updated_at\": \"2018-08-11T21:39:09.000Z\",\n        \"created_at\": \"2018-07-24T01:34:04.000Z\"\n    },\n    {\n        \"id\": 8036,\n        \"name\": \"Wicaksono\",\n        \"street\": \"1135 NW Galveston Ave Ste B\",\n        \"city\": \"Malibu\",\n        \"updated_at\": \"2018-08-11T21:39:09.000Z\",\n        \"created_at\": \"2018-07-24T01:34:04.000Z\"\n    },\n    {\n        \"id\": 8037,\n        \"name\": \"Robert Downey Jr\",\n        \"street\": \"62950 NE 18th St\",\n        \"city\": \"Perth\",\n        \"updated_at\": \"2018-08-11T21:39:09.000Z\",\n        \"created_at\": \"2018-07-24T01:34:04.000Z\"\n    },\n    {\n        \"id\": 8038,\n        \"name\": \"Thanos\",\n        \"street\": \"1411 NW Flanders St\",\n        \"city\": \"Canada\",\n        \"updated_at\": \"2018-08-11T21:39:09.000Z\",\n        \"created_at\": \"2018-07-24T01:34:04.000Z\"\n    },\n    {\n        \"id\": 8039,\n        \"name\": \"Clint\",\n        \"street\": \"62999 NE 18th St\",\n        \"city\": \"Wakanda\",\n        \"updated_at\": \"2018-08-11T21:39:09.000Z\",\n        \"created_at\": \"2018-07-24T01:34:04.000Z\"\n    },\n    {\n        \"id\": 8040,\n        \"name\": \"Steve Roger Danuarta\",\n        \"street\": \"62977 18th St\",\n        \"city\": \"New York\",\n        \"updated_at\": \"2018-08-11T21:39:09.000Z\",\n        \"created_at\": \"2018-07-24T01:34:04.000Z\"\n    },\n    {\n        \"id\": 8041,\n        \"name\": \"Chris Evan\",\n        \"street\": \"62777 18th St\",\n        \"city\": \"Saranjana\",\n        \"updated_at\": \"2018-08-11T21:39:09.000Z\",\n        \"created_at\": \"2018-07-24T01:34:04.000Z\"\n    },\n]",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "Own Data",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"errorCode\": \"3333\",\n  \"errorMessage\": \"Unauthorized\"\n}",
+                                "latency": 0,
+                                "statusCode": 401,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            },
+                            {
+                                "uuid": "",
+                                "body": "{\n  \"errorCode\": \"3366\",\n  \"errorMessage\": \"API Gateway Error\"\n}",
+                                "latency": 0,
+                                "statusCode": 503,
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false
+                    }
+                ],
+                "proxyMode": false,
+                "proxyHost": "",
+                "https": false,
+                "cors": true,
+                "headers": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "proxyReqHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "proxyResHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            }
+        }
+    ]
+}
